@@ -1,0 +1,35 @@
+// Global
+
+@import "global/fonts.scss";
+@import "global/variables.scss";
+@import "global/global.scss";
+
+// Header
+
+@import "header/header-navigation.scss";
+@import "header/header.scss";
+
+// Main
+
+@import "main/main.scss";
+@import "main/tour.scss";
+@import "main/places.scss";
+@import "main/preview.scss";
+@import "main/countrys.scss";
+@import "main/description.scss";
+@import "main/reviews.scss";
+@import "main/prices.scss";
+@import "main/advantages.scss";
+@import "main/feedback.scss";
+
+// Footer
+
+@import "footer/footer.scss";
+@import "footer/travels.scss";
+@import "footer/contacts.scss";
+@import "footer/corporate.scss";
+
+// Modal window
+
+@import "modal/order.scss";
+@import "modal/sent.scss";
