@@ -1,0 +1,43 @@
+.footer {
+  padding-bottom: 185px;
+}
+
+.footer__wrap {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding-top: 42px;
+  padding-bottom: 70px;
+  position: relative;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+  border-radius: 10px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 725px;
+    height: 325px;
+    top: 19px;
+    right: 1px;
+    background-image: url("../img/cars_img.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+}
+
+.footer__heading {
+  margin-left: 70px;
+  font-family: "Whitney", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 45px;
+  color: $main-color;
+  z-index: 5;
+}
+
+.footer__button {
+  margin-top: 45px;
+  margin-left: 70px;
+  z-index: 5;
+}

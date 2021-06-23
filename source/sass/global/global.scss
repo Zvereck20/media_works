@@ -6,13 +6,13 @@
   min-height: 100%;
   font-family: "Segoe UI", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 22,72px;
+  line-height: 22, 72px;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   align-content: start;
   margin: 0;
   padding: 0;
-  background-color: $main-background;
+  background-color: $main-color;
   color: $text-color;
   overflow-x: hidden;
   position: relative;
@@ -32,7 +32,6 @@
 }
 
 .button {
-  margin: 0 auto;
   text-decoration: none;
   display: flex;
   box-sizing: border-box;
@@ -43,11 +42,9 @@
   line-height: 100%;
   width: 222px;
   height: 50px;
-  font-size: 12px;
-  line-height: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
   color: $main-color;
   background-color: $btn-color;
   border: none;
@@ -56,30 +53,19 @@
     opacity: 0.3;
   }
 
-  // @media (max-width: $tablet-width) {
-  //   font-size: 10px;
-  //   line-height: 12px;
-  //   height: 50px;
-  // }
-
   // @media (max-width: $mobile-width) {
   //   width: 288px;
   // }
 }
 
-// .container {
-//   max-width: 1210px;
-//   padding: 0 20px;
-//   margin: 0 auto;
+.container {
+  max-width: 1170px;
+  padding: 0 20px;
+  margin: 0 auto;
 
-//   @media (max-width: $tablet-width) {
-//     min-width: 668px;
-//     padding: 0 21px;
-//     margin: 0;
-//   }
-
-//   @media (max-width: $mobile-width) {
-//     min-width: 260px;
-//     padding: 0 16px;
-//   }
-// }
+  @media (max-width: $tablet-width) {
+    min-width: 668px;
+    padding: 0 25px;
+    margin: 0;
+  }
+}

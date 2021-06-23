@@ -6,30 +6,18 @@
 
 // Header
 
-@import "header/header-navigation.scss";
 @import "header/header.scss";
+@import "header/navigation.scss";
 
 // Main
 
 @import "main/main.scss";
-@import "main/tour.scss";
-@import "main/places.scss";
-@import "main/preview.scss";
-@import "main/countrys.scss";
-@import "main/description.scss";
-@import "main/reviews.scss";
-@import "main/prices.scss";
 @import "main/advantages.scss";
-@import "main/feedback.scss";
+
 
 // Footer
-
 @import "footer/footer.scss";
-@import "footer/travels.scss";
-@import "footer/contacts.scss";
-@import "footer/corporate.scss";
 
-// Modal window
+// Modal
 
-@import "modal/order.scss";
-@import "modal/sent.scss";
+@import "modal/modal.scss";

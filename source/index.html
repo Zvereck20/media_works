@@ -11,47 +11,148 @@
 
 <body class="body">
   <header class="header">
-    <div class="header__wrap">
-      <a href="#" class="header__logo">
-        <img src="#" alt="Логотип Way" width="57" height="22">
-      </a>
-      <div class="header__navigation ">
-        <nav class="navigation navigation--closed navigation--nojs">
-          <button class="navigation__toggle" type="button">
-            <span class="visually-hidden">Открыть меню</span>
+    <div class="header__wrap container">
+      <section class="navigation">
+        <h2 class="visually-hidden">Главная навигация страницы</h2>
+        <a class="header__logo">
+          <img src="img/logo.svg" alt="Логотип Test" width="147" height="32">
+        </a>
+        <nav class="navigation">
+          <span class="visually-hidden">Открыть меню</span>
           </button>
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a href="#places" class="navigation__link">
-                О путешествии
+              <a href="#" class="navigation__link">
+                Клиентам
               </a>
             </li>
             <li class="navigation__item">
-              <a href="#prices" class="navigation__link">
-                Цены
-              </a>
-            </li>
-            <li class="navigation__item">
-              <a href="tel:+7-(499)-784-684-46" class="navigation__link navigation__link--telephone">
-                +7 (499) -784-684-46
+              <a href="#" class="navigation__link">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                    <path
+                      d="M24.0002 12C24.0002 5.36774 18.6332 0 12.0002 0C5.36798 0 0.000244141 5.367 0.000244141 12C0.000244141 18.5735 5.32239 24 12.0002 24C18.6506 24 24.0002 18.6037 24.0002 12ZM12.0002 1.40625C17.8417 1.40625 22.594 6.15857 22.594 12C22.594 14.1368 21.9584 16.1907 20.7798 17.9304C16.0469 12.8394 7.96222 12.8302 3.2207 17.9304C2.04205 16.1907 1.40649 14.1368 1.40649 12C1.40649 6.15857 6.15881 1.40625 12.0002 1.40625ZM4.09778 19.0547C8.30591 14.3346 15.6957 14.3357 19.9025 19.0547C15.6803 23.7784 8.32184 23.7799 4.09778 19.0547Z"
+                      fill="white" />
+                    <path
+                      d="M12.0002 12.7031C14.3264 12.7031 16.219 10.8105 16.219 8.48438V7.07812C16.219 4.75195 14.3264 2.85938 12.0002 2.85938C9.67407 2.85938 7.78149 4.75195 7.78149 7.07812V8.48438C7.78149 10.8105 9.67407 12.7031 12.0002 12.7031ZM9.18774 7.07812C9.18774 5.52722 10.4493 4.26562 12.0002 4.26562C13.5511 4.26562 14.8127 5.52722 14.8127 7.07812V8.48438C14.8127 10.0353 13.5511 11.2969 12.0002 11.2969C10.4493 11.2969 9.18774 10.0353 9.18774 8.48438V7.07812Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect width="24" height="24" fill="white" transform="translate(0.000244141)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                Войти
               </a>
             </li>
           </ul>
         </nav>
-      </div>
+      </section>
+
+      <section class="header__information">
+        <div class="header__container">
+          <h1 class="header__heading">
+            Подбор авто в лизинг по выгодной цене
+          </h1>
+          <p class="header__text">
+            IT платформа по быстрому поиску автомобиля от официальных дилеров РФ
+          </p>
+          <a href="#" class="header__button button button--open">Регистрация</a>
+        </div>
+        <img src="img/main_img.png" alt="Главное изображение страницы" class="header__img" width="689" height="442">
+      </section>
     </div>
   </header>
 
   <main class="main">
-
+    <div class="main__wrap container">
+      <h2 class="main__heading">Меньше условий – больше возможностей</h2>
+      <section class="advantages">
+        <h2 class="visually-hidden">Наши преимущества</h2>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <div class="advantages__wrap">
+              <h3 class="advantages__heading">Экономия времени</h3>
+              <p class="advantages__text">
+                Дополнительный канал&nbsp;<br> потенциальных клиентов, готовых приобрести автомобиль, без
+                затрат&nbsp;<br> на рекламу и маркетинг.
+              </p>
+            </div>
+            <img src="img/time_img.png" alt="Изображение работающего человека" class="advantages__img" width="193"
+              height="193">
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__wrap">
+              <h3 class="advantages__heading">Никаких задержек</h3>
+              <p class="advantages__text">
+                Вы получаете запросы сразу же&nbsp;<br> после отправки клиентом.
+              </p>
+            </div>
+            <img src="img/speed_img.png" alt="Изображение человека читающего почту" class="advantages__img" width="193"
+              height="193">
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__wrap">
+              <h3 class="advantages__heading">Максимальная информативность</h3>
+              <p class="advantages__text">
+                В каждой заявке указан регион поиска, марка и модель авто, а так же
+                индивидуальные запросы клиента.
+              </p>
+            </div>
+            <img src="img/Information_img.png" alt="Изображение человека изучающего информацию" class="advantages__img"
+              width="193" height="193">
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__wrap">
+              <h3 class="advantages__heading">Удобство общения</h3>
+              <p class="advantages__text">
+                Для каждого запроса у вас открыт&nbsp;<br> чат
+                с клиентом с возможностью&nbsp;<br> отправки документов.
+              </p>
+            </div>
+            <img src="img/chat_img.png" alt="Изображение переписывающегося человека" class="advantages__img" width="193"
+              height="193">
+          </li>
+        </ul>
+      </section>
+    </div>
   </main>
 
-  <footer class="footer container">
-
+  <footer class="footer">
+    <div class="footer__wrap">
+      <h2 class="footer__heading">
+        Регистрируйся и получай&nbsp;<br> актуальные запросы на
+        автомобили&nbsp;<br> от заинтерисованных
+        клиентов
+      </h2>
+      <a href="#" class="footer__button button button--open">Регистрация</a>
+    </div>
   </footer>
 
+  <div class="modal visually-hidden">
+    <section class="modal__wrap">
+      <button class="modal__toggle">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+      <h2 class="modal__heading">Авторизация</h2>
+      <form action="#" method="GET" class="form">
+        <div class="form__wrap">
+          <label class="form__heading" for="email">E-mail</label>
+          <input class="form__field" type="email" id="email" name="email" placeholder="Введите e-mail" required>
+        </div>
+        <div class="form__wrap">
+          <label class="form__heading" for="password">Пароль</label>
+          <input class="form__field" type="password" id="password" name="password" placeholder="Введите пароль"
+            required>
+        </div>
+        <button class="modal__button button" type="submit">Войти</button>
+      </form>
+    </section>
+  </div>
 
-  <!-- <script src="js/script.min.js"></script> -->
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
