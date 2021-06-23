@@ -21,7 +21,7 @@ const styles = () => {
     ]))
     .pipe(sourcemap.write("."))
     .pipe(rename("style.min.css"))
-    .pipe(gulp.dest("source/css"))
+    .pipe(gulp.dest("css"))
     .pipe(sync.stream());
 }
 
